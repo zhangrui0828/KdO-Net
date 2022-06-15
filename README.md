@@ -22,7 +22,7 @@ cd KdO-Net
 python train.py
 ```
 
-The training data should be saved in folder `data/train/trainingdata`.The training generated model file is saved in `./models/` and the tensorboard log will be saved in `./KdO-Net/logs/`.For more training options please see `.KdO-Net/core/config.py`.
+The training data should be saved in folder `data/train/trainingdata`.The training generated model file is saved in `./models/` and the tensorboard log will be saved in `./KdO-Net/logs/`.For more training options please see `./KdO-Net/core/config.py`.
 
 ### Evaluation
 
@@ -37,7 +37,7 @@ python evaluate.py
 
 `test.py` is used to infer the feature descriptors, run the `evaluate.py`to compute the recall ,precision e.g.
 
-Before running `test.py`, the preprocessed test set data needs to be saved in  folder `KdO-Net/data/3DMatch/test`. For more options in runing the inference please see `.KdO-Net/core/config.py`.
+Before running `test.py`, the preprocessed test set data needs to be saved in  folder `./KdO-Net/data/3DMatch/test`. For more options in runing the inference please see `./KdO-Net/core/config.py`.
 
 ### Demo
 
