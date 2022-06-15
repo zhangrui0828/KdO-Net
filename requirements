@@ -1,0 +1,9 @@
+glob3
+numpy
+tqdm
+parse
+matplotlib
+open3d-python
+scikit-learn==0.20.3
+tensorboard==1.10
+tensorflow-gpu==1.10
