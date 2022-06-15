@@ -12,7 +12,7 @@ import numpy as np
 
 PCL_EXE_PATH = "../PCL_EXE/build/KdO-Net"
 
-dirPath = glob.iglob("./data/ETH/")
+dirPath = glob.iglob("./data/3DMatch/")
 
 
 if __name__ == '__main__':
