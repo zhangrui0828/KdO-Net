@@ -35,7 +35,7 @@ cd Test
 python evaluate.py
 ```
 
-`test.py` is used to infer the feature descriptors, run the `evaluate.py`to compute the recall ,precision e.g.
+`test.py` is used to infer the feature descriptors, run the `evaluate.py`to compute the recall ,precision et. al.
 
 Before running `test.py`, the preprocessed test set data needs to be saved in  folder `./KdO-Net/data/3DMatch/test`. For more options in runing the inference please see `./KdO-Net/core/config.py`.
 
