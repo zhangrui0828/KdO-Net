@@ -12,7 +12,7 @@ import numpy as np
 
 PCL_EXE_PATH = "../PCL_EXE/build/KdO-Net"
 
-dirPath = glob.iglob("./data/3DMatch/")
+dirPath = glob.iglob("./data/3DMatch/test/")
 
 
 if __name__ == '__main__':
@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
         files = os.listdir(docum_path)
         for file in files:
-            filePath = "./data/test/" + file
+            filePath = "./data/3DMatch/test/" + file
             keypointsPath = filePath + "/01_Keypoints/"
             file = os.listdir(filePath)
             keyfile = os.listdir(keypointsPath)
